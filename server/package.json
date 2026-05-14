@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "express": "^5.2.1",
+    "telegram": "^2.26.22",
+    "ws": "^8.20.1"
+  }
+}

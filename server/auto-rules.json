@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-14T15:49:12.343Z",
+  "enabled": false,
+  "targetBot": "nightmare_spire_mmorpg_bot",
+  "rules": [
+    {
+      "id": "rule_1778680023168",
+      "enabled": true,
+      "match": "Поражение....",
+      "response": "Отдохнуть",
+      "matchMode": "contains",
+      "matchTarget": "text",
+      "actionType": "press_button",
+      "actions": [
+        {
+          "id": "rule_1778680023168_step_1",
+          "type": "press_button",
+          "value": "Отдохнуть"
+        },
+        {
+          "id": "step_1778716802646_7pkqu",
+          "type": "press_button",
+          "value": "Подождать 30 сек"
+        }
+      ]
+    },
+    {
+      "id": "rule_1778717652272",
+      "enabled": true,
+      "match": "Победа!!",
+      "response": "",
+      "matchMode": "contains",
+      "matchTarget": "text",
+      "actionType": "press_button",
+      "actions": [
+        {
+          "id": "step_1778717571366_9kza5",
+          "type": "press_button",
+          "value": "Отдохнуть"
+        },
+        {
+          "id": "step_1778717641036_8f8pn",
+          "type": "press_button",
+          "value": "Подождать 30 сек"
+        }
+      ]
+    },
+    {
+      "id": "rule_1778717420038",
+      "enabled": true,
+      "match": "Ты погиб в предыдущем бою с боссом",
+      "response": "⊹ Исследовать",
+      "matchMode": "contains",
+      "matchTarget": "text",
+      "actionType": "send_text",
+      "actions": [
+        {
+          "id": "step_1778717265857_ubxuf",
+          "type": "send_text",
+          "value": "⊹ Исследовать"
+        }
+      ]
+    },
+    {
+      "id": "rule_1778716748654",
+      "enabled": true,
+      "match": "Босс",
+      "response": "",
+      "matchMode": "contains",
+      "matchTarget": "button",
+      "actionType": "press_button",
+      "actions": [
+        {
+          "id": "step_1778716695373_z2m2t",
+          "type": "press_button",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "rule_1778717765532",
+      "enabled": true,
+      "match": "Исследовать",
+      "response": "",
+      "matchMode": "contains",
+      "matchTarget": "button",
+      "actionType": "press_button",
+      "actions": [
+        {
+          "id": "step_1778717683250_euwhg",
+          "type": "press_button",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "enemy_detected",
+      "enabled": true,
+      "match": "Напасть",
+      "response": "Напасть",
+      "matchMode": "contains",
+      "matchTarget": "button",
+      "actionType": "press_button",
+      "actions": [
+        {
+          "id": "enemy_detected_step_1",
+          "type": "press_button",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "battle_started",
+      "enabled": true,
+      "match": "Атака",
+      "response": "Атака",
+      "matchMode": "contains",
+      "matchTarget": "button",
+      "actionType": "press_button",
+      "actions": [
+        {
+          "id": "battle_started_step_1",
+          "type": "press_button",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "rule_1778717265857",
+      "enabled": true,
+      "match": "Собрать",
+      "response": "",
+      "matchMode": "contains",
+      "matchTarget": "button",
+      "actionType": "press_button",
+      "actions": [
+        {
+          "id": "step_1778717190794_3uz0y",
+          "type": "press_button",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "rule_1778717571379",
+      "enabled": true,
+      "match": "Уйти",
+      "response": "",
+      "matchMode": "contains",
+      "matchTarget": "button",
+      "actionType": "press_button",
+      "actions": [
+        {
+          "id": "step_1778717420038_17ktn",
+          "type": "press_button",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
